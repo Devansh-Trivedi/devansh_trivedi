@@ -383,6 +383,40 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+/* .card .box img:hover {
+    opacity: 65%;
+    
+} */
+/* .card .box i {
+   
+    display:none;
+    padding-top: 80px;	
+	padding-right: 140px;
+    position: absolute;
+    font-size: 35px;
+	right: 0;
+	top: 0;
+
+} */
+
+/* .card .box .card:hover {
+    position: relative;
+   display: relative;
+   padding-top: 80px;	
+	padding-right: 140px;
+    position: absolute;
+    font-size: 35px;
+	right: 0;
+	top: 0;
+
+
+} */
+
+/* .card .box i:hover {
+    color:#fff;
+   
+    
+} */
 
 /* teams section styling */
 .teams .title::after{
@@ -398,8 +432,24 @@ section .title::after{
 }
 .teams .carousel .card:hover{
     background: crimson;
-    
+    opacity: 80%;
 }
+
+.teams .carousel .card:hover i{
+    display: block;
+   
+    padding-top: 80px;	
+	padding-right: 140px;
+    position: absolute;
+    font-size: 35px;
+	right: 0;
+	top: 0;
+}
+
+.teams .carousel .card i{
+    display: none;
+}
+
 .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
