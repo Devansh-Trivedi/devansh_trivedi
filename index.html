@@ -13,21 +13,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 <body>
+    <!-- <script src="particles.js"></script>
+    <script src="app.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script> -->
+    <!-- <div>
+
+        <section id="particles-js">
+
+        </section>
+
+    </div>
+     -->
+
+    
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">&#60;Devansh<span>Trivedi/></span></a></div>
+            <div class="logo"><a href="#">&#60;Devansh<span> Trivedi /></span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#education" class="menu-btn">Education</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#experience" class="menu-btn">Experience</a></li>
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -38,6 +58,7 @@
 
     <!-- home section start -->
     <section class="home" id="home">
+     
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
@@ -56,6 +77,7 @@
 
     <!-- about section start -->
     <section class="about" id="about">
+        
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
@@ -68,7 +90,7 @@
                         I am passionate at implementing solutions for problems using technology which in turn encourages me to learn new technologies.
                         I am also a passionate debater, Autodidact and a person who love to visit new places.</p></div>
                    
-                    <a href="#">Download CV</a>
+                    <a href="https://drive.google.com/file/d/11CG4QWKvyn4MNk8HlAmd7ypWdcuIfrk2/view?usp=sharing" target="blank">Resume</a>
                 </div>
             </div>
         </div>
@@ -76,6 +98,7 @@
 
     <!-- services section start -->
     <section class="services" id="services">
+        
         <div class="max-width">
             <h2 class="title">Till now ... </h2>
                  
@@ -105,6 +128,71 @@
             </div>
         </div>
     </section>
+    <section class="timeline" id="education">
+        <h1 style="text-align: center;font-family: 'Ubuntu', sans-serif;padding-bottom: 25px;font-size: 40px;">Education</h1>
+    
+        <div class="wrapper" >
+            <div class="center-line">
+    
+              <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+              <section data-aos="fade-left" data-aos-duration="5000">
+                <i class="icon fas fa-rocket"></i>
+                <div class="details">
+                  <span class="title">B.E. Computer Engineering</span>
+                  <span>June,2019 - Present</span>
+                </div>
+                <p>Member of Rgit CodeCell and Rgit CESS commitee, organized and took active part in various Technical and Cultural fest </p>
+                <p>CGPA - 9.71/10 (uptill now)</p>
+                <div class="bottom">
+                  
+                  <i>- Rajiv Gandhi Institute Of Technology, Mumbai University</i>
+                </div>
+              </section>
+            </div>
+            <div class="row row-2">
+              <section data-aos="fade-right" data-aos-duration="5000">  
+                <i class="icon fas fa-rocket"></i>
+                <div class="details">
+                  <span class="title">11-12th Science</span>
+                  <span>July,2017 - April,2019</span>
+                </div>
+                <p>Studied Computer Science as a vocational subject</p>
+                <p>Scored - 79%</p>
+                <div class="bottom">
+                  
+                  <i>-K.C. college, Mumbai</i>
+                </div>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section data-aos="fade-left" data-aos-duration="5000">
+                <i class="icon fas fa-rocket"></i>
+                <div class="details">
+                  <span class="title">School</span>
+                  <span>June,2004 - May,2017</span>
+                </div>
+                <p>Took part in extra curicular activities like Football, drawing and won gold medal for karate on district and state level</p>
+                <p>Scored - 93.60% (Topper of school with highest marks scored among 250 students)</p>
+                <div class="bottom">
+                  
+                  <i>- St. Sebastion Goan High School</i>
+                </div>
+              </section>
+            </div>
+           
+          </div>
+        
+        
+        
+        
+          <script>
+            AOS.init();
+          </script>
+        
+        
+    </section>
 
     <!-- skills section start -->
     <section class="skills" id="skills">
@@ -113,8 +201,8 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">Read more</a>
+                    <p>I love and enjoy learning new frameworks and languages, and used those in my projects. The most important skill I think I pursue is the ability and willingness to learn, implement and invent new things. According to me finding solutions does not require great efforts, but findings problems requires efforts, as it cannot be seen by nacked eyes. I enjoy making websites, softwares, applications and most important I can adjust and work in any environment and with any amount of pressure.</p>
+                    <a href="https://www.linkedin.com/in/devansh-trivedi-a937851b0/" target="blank">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -163,9 +251,86 @@
             </div>
         </div>
     </section>
+<section class="timeline" id="experience">
+    <h1 style="text-align: center;font-family: 'Ubuntu', sans-serif;padding-bottom: 25px;font-size: 40px;">Experience</h1>
 
+    <div class="wrapper" >
+        <div class="center-line">
+
+          <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+        </div>
+        <div class="row row-1 ">
+          <section data-aos="fade-left" data-aos-duration="5000">
+            <i class="icon fas fa-rocket"></i>
+            <div class="details">
+              <span class="title">Campus Ambassador</span>
+              <span>Nov,2020 - Present</span>
+            </div>
+            <p>Responsible for campaigning for different cultural and technical fests and compeditions organized by IIT Roorkee </p>
+            <div class="bottom">
+              <i>-IIT Roorkee</i>
+              
+            </div>
+          </section>
+        </div>
+        <div class="row row-2 ">
+          <section data-aos="fade-right" data-aos-duration="5000">  
+            <i class="icon fas fa-rocket"></i>
+            <div class="details">
+              <span class="title">Web Developer</span>
+              <span>June,2020 - Present</span>
+            </div>
+            <p>Responsible for developing websites for college in colobaration with other members.</p>
+            
+            <div class="bottom">
+              
+              <i>-CESS Rgit</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-1">
+          <section data-aos="fade-left" data-aos-duration="5000">
+            <i class="icon fas fa-rocket"></i>
+            <div class="details">
+              <span class="title">Web Developer</span>
+              <span>Oct,2020 - Nov,2020</span>
+            </div>
+            <p>Building and Working on different pages of website Technologies used: Reactjs, HTML, CSS, FireBase etc</p>
+            <div class="bottom">
+              
+              <i>- MissionEd (edtech startup)</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-2">
+            <section data-aos="fade-right" data-aos-duration="5000">  
+              <i class="icon fas fa-rocket"></i>
+              <div class="details">
+                <span class="title">Web Developer</span>
+                <span>Aug,2020 - Sept,2020</span>
+              </div>
+              <p>Designed and Developed Frontend of the website using Reactjs also used Nodejs and MongoDB for backend. Optimized the overall appearance of the website, and worked to enhance the UI of the website.</p>
+              
+              <div class="bottom">
+                
+                <i>-Ikkat Hub Pvt. Ltd.</i>
+              </div>
+            </section>
+          </div>
+       
+      </div>
+    
+    
+    
+    
+      <script>
+        AOS.init();
+      </script>
+    
+    
+</section>
     <!-- teams section start -->
-    <section class="teams" id="teams">
+    <section class="teams" id="teams" >
         <div class="max-width">
             <h2 class="title">Projects</h2>
             <div class="carousel owl-carousel">
@@ -293,5 +458,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"> -->
+
 </body>
 </html>
