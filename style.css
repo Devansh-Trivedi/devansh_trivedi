@@ -290,6 +290,9 @@ section .title::after{
 .services .serv-content .card:hover{
     background: crimson;
 }
+body{
+    width : 100%;
+}
 /* .timeline .card:hover{
     background: crimson;
 } */
@@ -628,6 +631,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    body{
+        width: 100%;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
