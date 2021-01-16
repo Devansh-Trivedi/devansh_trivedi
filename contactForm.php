@@ -4,7 +4,7 @@ $Name = $_REQUEST['Name'];
 $Email = $_REQUEST['Email'];
 $Subject = $_REQUEST['Subject'];
 $Message = $_REQUEST['Message'];
-
+$header = "From: devansh-trivedi.netlify.app/";
 if(empty($Name) && empty($Email) && empty($Subject) && empty($Message)){
     echo ('Please fill all the fields');
 }
@@ -18,8 +18,7 @@ else{
 
 // require 'phpMailer/PHPMailerAutoload.php';
 
-// $mail = new PHPMailer;
-
+// $mail = new PHPMaile
 // //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 // $mail->isSMTP();                                      // Set mailer to use SMTP
