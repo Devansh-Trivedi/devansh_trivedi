@@ -9,7 +9,7 @@ if(empty($Name) && empty($Email) && empty($Subject) && empty($Message)){
     echo ('Please fill all the fields');
 }
 else{
-    mail("tridevansh.160601@gmail.com", "Message From Personal website", $Message, "From: 127.0.0.1:5500/");
+    mail("tridevansh.160601@gmail.com", "Message From Personal website", $Message, "From: devansh-trivedi.netlify.app/");
     echo "<script type='text/javascript'> alert('Your Message sent successfully');
             window.history.go(-1);
             </script>";
